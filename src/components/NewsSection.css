@@ -1,0 +1,42 @@
+/* src/components/ClientNewsSection.css */
+
+.client-logos .logo-img {
+    max-height: 50px;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+  }
+  
+  .client-logos .logo-img:hover {
+    opacity: 1;
+  }
+  
+  .news-card {
+    display: flex;
+    min-height: 150px;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .news-img {
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .news-date {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    border-radius: 3px;
+  }
+  
+  .news-content {
+    padding: 15px;
+    width: 60%;
+  }
+  

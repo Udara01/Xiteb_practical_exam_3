@@ -1,0 +1,28 @@
+.footer {
+    background-color: #485266;
+    color: #fff;
+  }
+  
+  .footer input[type="email"] {
+    border-radius: 4px;
+  }
+  
+  .footer .btn-warning {
+    background-color: #f9a825;
+    border: none;
+  }
+  
+  .footer .social-icons i {
+    font-size: 1.2rem;
+    color: #ccc;
+    transition: color 0.3s;
+  }
+  
+  .footer .social-icons i:hover {
+    color: #f9a825;
+  }
+  
+  .footer-bottom {
+    font-size: 0.85rem;
+  }
+  
