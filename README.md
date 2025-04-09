@@ -38,7 +38,7 @@ npm install react-router-dom@6
 # Run the Project
 npm start
 
-Then open your browser at: http://localhost:3000
+Then open your browser at: http://localhost:3000/home
 
 npm install react-icons
 npm install react-router-dom@6
