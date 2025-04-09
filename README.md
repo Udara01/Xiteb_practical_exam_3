@@ -1,9 +1,10 @@
-# Getting Started with Create React App
+# Getting Started with React App
 Technologies Used
 
 - React JS
 - Bootstrap 5
 - CSS
+- HTML
 
 Task Description
 The task involved designing and developing a complete home page using the provided structure in a PDF. The sections include
@@ -21,8 +22,8 @@ All sections were developed using React components and styled using Bootstrap. D
 
 Time Spent
 
-- **Design:** 45 minutes
-- **Development:** 2.30 hours
+- **Design:** 1 hour
+- **Development:** 2.30 hour
 
 How to Run the Project1. 
 1. Extract the zipped project folder.

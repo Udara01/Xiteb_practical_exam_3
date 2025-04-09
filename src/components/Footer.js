@@ -1,5 +1,12 @@
 import React from "react";
 import "./FooterSection.css";
+import Footer from "../assets/Footer/Footer-service1.jpg";
+import Footer2 from "../assets/Footer/Footer-service2.jpg";
+import Footer3 from "../assets/Footer/Footer-service3.png";
+import Footer4 from "../assets/Footer/Footer-service4.png";  
+import Footer5 from "../assets/Footer/Footer-service5.jpeg";
+import Footer6 from "../assets/Footer/Footer-service6.png";
+
 
 const FooterSection = () => {
   return (
@@ -51,13 +58,12 @@ const FooterSection = () => {
             </ul>
           </div>
 
-
           <div className="col-md-3">
             <h6 className="fw-bold mb-3">Customer Service</h6>
             <div className="row g-2">
-              {[...Array(6)].map((_, i) => (
+              {[Footer, Footer2, Footer3, Footer4, Footer5, Footer6].map((img, i) => (
                 <div className="col-4" key={i}>
-                  <img src={`/images/footer${i + 1}.jpg`} alt="footer-img" className="img-fluid" />
+                  <img src={img} alt={`footer-img-${i + 1}`} className="img-fluid footer-img" />
                 </div>
               ))}
             </div>
